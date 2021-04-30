@@ -1,0 +1,10 @@
+language: c
+
+arch:
+    - amd64
+    - ppc64le
+
+dist: bionic
+
+script:
+   - make all
