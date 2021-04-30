@@ -18,12 +18,9 @@ arch:
 dist: bionic
 
 script:
-   - make BUILD_ROOT
+   - make clean
    - make build
    - make all
    - make build/zmmailboxdmgr
    - make build/zmmailboxdmgr.unrestricted
-   - make clean
    - make FORCE
-   - build/zmmailboxdmgr
-   - build/zmmailboxdmgr.unrestricted
