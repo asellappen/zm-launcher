@@ -24,7 +24,3 @@ script:
    - make build/zmmailboxdmgr
    - make build/zmmailboxdmgr.unrestricted
    - make FORCE
-   - make build/zmmailboxdmgr:src/launcher/zmmailboxdmgr.c
-   - src/launcher/zmmailboxdmgr.c
-   - gcc $(MACDEF) $(LAUNCHER_CFLAGS) -g -Wall -Wmissing-prototypes -o $@ $<
-   - make build/zmmailboxdmgr.unrestricted
