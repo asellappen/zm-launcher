@@ -19,5 +19,9 @@ dist: bionic
 
 script:
    - make build
-   - make test
    - make all
+   - make build/zmmailboxdmgr
+   - $(BUILD)/zmmailboxdmgr
+   - build/zmmailboxdmgr
+   - $(BUILD)/zmmailboxdmgr.unrestricted
+   - build/zmmailboxdmgr.unrestricted
